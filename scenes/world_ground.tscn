@@ -3,7 +3,6 @@
 [ext_resource type="Texture2D" uid="uid://c8dtpbdbk4tyd" path="res://assets/icon.svg" id="1_47x1v"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_t8rq2"]
-distance = 1.0
 
 [node name="WorldGround" type="StaticBody2D"]
 
@@ -11,6 +10,6 @@ distance = 1.0
 shape = SubResource("WorldBoundaryShape2D_t8rq2")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(0, 64)
-scale = Vector2(10.918, 1)
+position = Vector2(-4.54747e-13, 16.25)
+scale = Vector2(1.79053, 0.253906)
 texture = ExtResource("1_47x1v")
