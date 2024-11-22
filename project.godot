@@ -27,6 +27,10 @@ window/stretch/mode="canvas_items"
 
 project/assembly_name="learningGodot-xx"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/toggle_external_editor/plugin.cfg")
+
 [input]
 
 jump={
